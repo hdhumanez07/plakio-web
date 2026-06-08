@@ -3,9 +3,8 @@
 import { useTranslations } from "next-intl";
 import { Link } from "@/i18n/routing";
 
-export default function Cta() {
+export default function CtaPage() {
   const t = useTranslations("cta");
-  const steps = [t("steps.0"), t("steps.1"), t("steps.2")];
 
   return (
     <section
@@ -21,14 +20,24 @@ export default function Cta() {
 
         <div className="bg-gray-50 rounded-2xl border border-gray-100 p-8 sm:p-10">
           <ol className="text-left space-y-4 mb-8">
-            {steps.map((text, i) => (
-              <li key={`step-${i}`} className="flex items-start gap-3">
-                <span className="shrink-0 w-6 h-6 rounded-full bg-blue-600 text-white text-xs font-bold flex items-center justify-center mt-0.5">
-                  {i + 1}
-                </span>
-                <span className="text-gray-700 text-sm">{text}</span>
-              </li>
-            ))}
+            <li className="flex items-start gap-3">
+              <span className="shrink-0 w-6 h-6 rounded-full bg-blue-600 text-white text-xs font-bold flex items-center justify-center mt-0.5">
+                1
+              </span>
+              <span className="text-gray-700 text-sm">{t("steps.0")}</span>
+            </li>
+            <li className="flex items-start gap-3">
+              <span className="shrink-0 w-6 h-6 rounded-full bg-blue-600 text-white text-xs font-bold flex items-center justify-center mt-0.5">
+                2
+              </span>
+              <span className="text-gray-700 text-sm">{t("steps.1")}</span>
+            </li>
+            <li className="flex items-start gap-3">
+              <span className="shrink-0 w-6 h-6 rounded-full bg-blue-600 text-white text-xs font-bold flex items-center justify-center mt-0.5">
+                3
+              </span>
+              <span className="text-gray-700 text-sm">{t("steps.2")}</span>
+            </li>
           </ol>
 
           <Link
