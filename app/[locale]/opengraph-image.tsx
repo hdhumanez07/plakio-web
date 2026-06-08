@@ -1,11 +1,22 @@
 import { ImageResponse } from "next/og";
 
-export const alt = "Plakio — Software simple para parqueaderos";
 export const size = { width: 1200, height: 630 };
-
 export const contentType = "image/png";
 
-export default function OpenGraphImage() {
+type Params = { params: Promise<{ locale: string }> };
+
+export default async function OpenGraphImage({ params }: Params) {
+  const { locale } = await params;
+  const isEs = locale === "es";
+
+  const subtitle = isEs
+    ? "Software simple para parqueaderos"
+    : "Simple parking lot software";
+
+  const features = isEs
+    ? "Check-in digital · Tickets · Cobro automático · Prueba gratis 30 días"
+    : "Digital check-in · Tickets · Automatic billing · 30-day free trial";
+
   return new ImageResponse(
     <div
       style={{
@@ -65,7 +76,7 @@ export default function OpenGraphImage() {
           textAlign: "center",
         }}
       >
-        Software simple para parqueaderos
+        {subtitle}
       </p>
       <div
         style={{
@@ -78,7 +89,7 @@ export default function OpenGraphImage() {
           fontWeight: 500,
         }}
       >
-        Check-in digital · Tickets · Cobro automático · Prueba gratis 30 días
+        {features}
       </div>
     </div>,
     { ...size },
