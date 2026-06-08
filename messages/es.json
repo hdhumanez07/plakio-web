@@ -1,0 +1,100 @@
+{
+  "metadata": {
+    "title": "Plakio — Software simple para parqueaderos",
+    "description": "Gestiona tu parqueadero desde el celular. Check-in, check-out, tickets digitales y cobro automático. Prueba gratis 30 días."
+  },
+  "nav": {
+    "contact": "Contáctanos",
+    "download": "Descargar app"
+  },
+  "hero": {
+    "badge": "Prueba gratis por 30 días",
+    "title": "El software más sencillo para <highlight>gestionar tu parqueadero</highlight>",
+    "description": "Check-in y check-out desde el celular, tickets digitales y cobro automático. Sin complicaciones.",
+    "ctaPrimary": "Descargar la app",
+    "ctaSecondary": "Cómo funciona",
+    "footnote": "Disponible para Android e iOS · Prueba gratis 30 días"
+  },
+  "features": {
+    "title": "Todo lo que necesitas",
+    "description": "Diseñado para parqueaderos de cualquier tamaño. Simple de usar, potente para tu negocio.",
+    "items": [
+      {
+        "icon": "📱",
+        "title": "Check-in desde el celular",
+        "description": "Registra la entrada de vehículos en segundos. Solo ingresa la placa y listo."
+      },
+      {
+        "icon": "🎫",
+        "title": "Ticket digital automático",
+        "description": "Cada vehículo recibe un código único. Sin papel, sin impresoras."
+      },
+      {
+        "icon": "💰",
+        "title": "Cobro automático",
+        "description": "Calcula el valor a pagar según el tiempo y la tarifa que tú definas."
+      },
+      {
+        "icon": "📊",
+        "title": "Dashboard en tiempo real",
+        "description": "Ve cuántos vehículos hay dentro, ingresos del día y estadísticas históricas."
+      },
+      {
+        "icon": "🛡️",
+        "title": "Seguro y confiable",
+        "description": "Datos cifrados y respaldados en la nube. Tu información siempre disponible."
+      },
+      {
+        "icon": "📅",
+        "title": "Mensualidades para tus clientes",
+        "description": "Registra clientes recurrentes y cobra sus mensualidades de forma sencilla."
+      }
+    ]
+  },
+  "cta": {
+    "title": "Empieza en 3 pasos",
+    "description": "Descarga la app, configura tu parqueadero y empieza a cobrar.",
+    "steps": [
+      "Descarga la app Plakio en tu celular",
+      "Crea tu cuenta con el nombre de tu parqueadero",
+      "Configura tu tarifa y empieza a operar"
+    ],
+    "button": "Descargar la app →",
+    "footnote": "Disponible para Android e iOS · Prueba gratis 30 días"
+  },
+  "footer": {
+    "rights": "Todos los derechos reservados.",
+    "privacy": "Privacidad",
+    "terms": "Términos",
+    "contact": "Contacto"
+  },
+  "download": {
+    "metadataTitle": "Descargar Plakio — App para parqueaderos",
+    "metadataDescription": "Descarga la app Plakio para Android e iOS. Gestiona tu parqueadero desde el celular con check-in, check-out y cobro automático.",
+    "badge": "Disponible ahora",
+    "title": "Descarga <highlight>Plakio</highlight>",
+    "description": "Disponible para Android e iOS. Prueba gratis por 30 días, sin tarjeta de crédito.",
+    "android": "Android",
+    "androidLabel": "Descargar APK",
+    "iosLabel": "Próximamente en",
+    "ios": "App Store",
+    "stepsTitle": "Cómo empezar",
+    "steps": [
+      "Descarga la app en tu celular",
+      "Crea tu cuenta con el nombre de tu parqueadero",
+      "Configura tu tarifa y empieza a operar"
+    ],
+    "questions": "¿Tienes preguntas?",
+    "email": "hola@plakio.app"
+  },
+  "notFound": {
+    "title": "Página no encontrada",
+    "description": "Lo sentimos, la página que buscas no existe o ha sido movida. ¿Quieres volver al inicio?",
+    "backHome": "Volver al inicio",
+    "contact": "Contáctanos"
+  },
+  "language": {
+    "es": "Español",
+    "en": "English"
+  }
+}
