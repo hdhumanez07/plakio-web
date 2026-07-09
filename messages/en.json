@@ -51,6 +51,10 @@
       }
     ]
   },
+  "videoTutorial": {
+    "title": "Learn how to use Plakio",
+    "description": "Watch this video tutorial and discover how easy it is to manage your parking lot with Plakio."
+  },
   "cta": {
     "title": "Get started in 3 steps",
     "description": "Download the app, set up your parking lot and start charging.",

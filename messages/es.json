@@ -51,6 +51,10 @@
       }
     ]
   },
+  "videoTutorial": {
+    "title": "Aprende a usar Plakio",
+    "description": "Mira este video tutorial y descubre lo fácil que es gestionar tu parqueadero con Plakio."
+  },
   "cta": {
     "title": "Empieza en 3 pasos",
     "description": "Descarga la app, configura tu parqueadero y empieza a cobrar.",
