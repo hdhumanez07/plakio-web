@@ -20,7 +20,8 @@ export const apps: AppConfig[] = [
     translationKey: "apps.plakio",
     iconGradient: "from-blue-500 to-blue-700",
     iconLetter: "P",
-    apkUrl: "/plakio-0.1.1.apk",
+    apkUrl:
+      "https://drive.google.com/file/d/1NIzkLKGEWBgAruhp-YcGoqprg7gPYaYm/view?usp=share_link",
     videoId: "1yTvh8thz6SKoXB8SisJNM3PTuWLsA1hz",
   },
   {
@@ -29,7 +30,9 @@ export const apps: AppConfig[] = [
     translationKey: "apps.citoky",
     iconGradient: "from-indigo-500 to-purple-700",
     iconLetter: "C",
-    apkUrl: "/citoky-1.0.0.apk",
+    apkUrl:
+      "https://drive.google.com/file/d/130AUyiFLeZ4pNvXWa2rl1p1Kg7eodkdp/view?usp=share_link",
+    videoId: "1dudribcSlZ2aRB7Jo2e9bIi-KP0pn1K1",
   },
 ];
 

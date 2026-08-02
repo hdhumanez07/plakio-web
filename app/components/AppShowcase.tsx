@@ -29,13 +29,13 @@ function AppCard({ app }: Readonly<{ app: AppConfig }>) {
       <div className="flex items-center gap-3 mt-6">
         <Link
           href={`/apps/${app.slug}`}
-          className="inline-flex items-center justify-center px-5 py-2.5 rounded-lg border border-gray-200 text-gray-700 text-sm font-medium hover:bg-gray-50 transition-colors"
+          className="flex-1 inline-flex items-center justify-center px-5 py-2.5 rounded-lg border border-gray-200 text-gray-700 text-sm font-medium hover:bg-gray-50 transition-colors"
         >
           {homeT("exploreApps")}
         </Link>
         <Link
           href="/download"
-          className="inline-flex items-center justify-center px-5 py-2.5 rounded-lg bg-blue-600 text-white text-sm font-medium hover:bg-blue-700 transition-colors"
+          className="flex-1 inline-flex items-center justify-center px-5 py-2.5 rounded-lg bg-blue-600 text-white text-sm font-medium hover:bg-blue-700 transition-colors"
         >
           {homeT("downloadAll")}
         </Link>

@@ -130,6 +130,10 @@
           }
         ]
       },
+      "videoTutorial": {
+        "title": "Learn to use Citoky",
+        "description": "Watch this video tutorial and discover how easy it is to manage your complex's intercom with Citoky."
+      },
       "cta": {
         "title": "Get started in 3 steps",
         "description": "Download the app, set up your complex and start using.",

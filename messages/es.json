@@ -130,6 +130,10 @@
           }
         ]
       },
+      "videoTutorial": {
+        "title": "Aprende a usar Citoky",
+        "description": "Mira este video tutorial y descubre lo fácil que es gestionar la citofonía de tu conjunto con Citoky."
+      },
       "cta": {
         "title": "Empieza en 3 pasos",
         "description": "Descarga la app, configura tu conjunto y empieza a usar.",
