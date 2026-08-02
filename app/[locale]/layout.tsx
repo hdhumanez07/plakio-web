@@ -27,13 +27,13 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
     metadataBase: new URL(BASE_URL),
     title: {
       default: isEs
-        ? "Plakio — Software simple para parqueaderos"
-        : "Plakio — Simple parking lot software",
+        ? "Plakio — Apps simples para tu negocio"
+        : "Plakio — Simple apps for your business",
       template: "%s | Plakio",
     },
     description: isEs
-      ? "Gestiona tu parqueadero desde el celular. Check-in, check-out, tickets digitales y cobro automático. Prueba gratis 30 días."
-      : "Manage your parking lot from your phone. Check-in, check-out, digital tickets and automatic billing. 30-day free trial.",
+      ? "Software simple para gestionar tu negocio desde el celular. Parqueaderos, citofonía y más."
+      : "Simple software to manage your business from your phone. Parking lots, intercom and more.",
     alternates: {
       canonical: BASE_URL,
       languages: {

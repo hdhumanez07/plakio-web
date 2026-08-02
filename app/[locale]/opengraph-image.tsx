@@ -10,12 +10,12 @@ export default async function OpenGraphImage({ params }: Params) {
   const isEs = locale === "es";
 
   const subtitle = isEs
-    ? "Software simple para parqueaderos"
-    : "Simple parking lot software";
+    ? "Apps simples para tu negocio"
+    : "Simple apps for your business";
 
   const features = isEs
-    ? "Check-in digital · Tickets · Cobro automático · Prueba gratis 30 días"
-    : "Digital check-in · Tickets · Automatic billing · 30-day free trial";
+    ? "Parqueaderos · Citofonía · Y más · Prueba gratis"
+    : "Parking lots · Intercom · And more · Free trial";
 
   return new ImageResponse(
     <div

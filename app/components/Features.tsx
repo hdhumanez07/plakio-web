@@ -2,8 +2,12 @@
 
 import { useTranslations } from "next-intl";
 
-export default function Features() {
-  const t = useTranslations("features");
+type FeaturesProps = {
+  readonly translationKey: string;
+};
+
+export default function Features({ translationKey }: FeaturesProps) {
+  const t = useTranslations(`${translationKey}.features`);
   const items = t.raw("items") as Array<{
     icon: string;
     title: string;

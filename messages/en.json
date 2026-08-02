@@ -1,83 +1,154 @@
 {
   "metadata": {
-    "title": "Plakio — Simple parking lot software",
-    "description": "Manage your parking lot from your phone. Check-in, check-out, digital tickets and automatic billing. 30-day free trial."
+    "title": "Plakio — Simple apps for your business",
+    "description": "Simple software to manage your business from your phone. Parking lots, intercom and more."
   },
   "nav": {
     "contact": "Contact us",
-    "download": "Download app"
+    "apps": "Apps",
+    "download": "Download"
   },
-  "hero": {
-    "badge": "Free 30-day trial",
-    "title": "The simplest software to <highlight>manage your parking lot</highlight>",
-    "description": "Check-in and check-out from your phone, digital tickets and automatic billing. No complications.",
-    "ctaPrimary": "Download the app",
-    "ctaSecondary": "How it works",
-    "footnote": "Available for Android and iOS · Free 30-day trial"
+  "home": {
+    "badge": "Apps available now",
+    "heroTitle": "Plakio — Simple apps for your business",
+    "heroDescription": "Simple software to manage your business from your phone. Parking lots, intercom and more.",
+    "title": "Simple software for <highlight>your business</highlight>",
+    "description": "Manage your business from your phone. Choose the app you need.",
+    "exploreApps": "Explore apps",
+    "downloadAll": "Download"
   },
-  "features": {
-    "title": "Everything you need",
-    "description": "Designed for parking lots of any size. Simple to use, powerful for your business.",
-    "items": [
-      {
-        "icon": "📱",
-        "title": "Check-in from your phone",
-        "description": "Register vehicle entry in seconds. Just enter the license plate and you're done."
+  "apps": {
+    "plakio": {
+      "name": "Plakio",
+      "tagline": "Parking lot management",
+      "description": "Check-in, check-out and automatic billing for your parking lot.",
+      "hero": {
+        "badge": "Free 30-day trial",
+        "title": "The simplest software to <highlight>manage your parking lot</highlight>",
+        "description": "Check-in and check-out from your phone, digital tickets and automatic billing. No complications.",
+        "ctaPrimary": "Download the app",
+        "ctaSecondary": "How it works",
+        "footnote": "Available for Android · Free 30-day trial"
       },
-      {
-        "icon": "🎫",
-        "title": "Automatic digital ticket",
-        "description": "Each vehicle receives a unique code. No paper, no printers."
+      "features": {
+        "title": "Everything you need",
+        "description": "Designed for parking lots of any size. Simple to use, powerful for your business.",
+        "items": [
+          {
+            "icon": "📱",
+            "title": "Check-in from your phone",
+            "description": "Register vehicle entry in seconds. Just enter the license plate and you're done."
+          },
+          {
+            "icon": "🎫",
+            "title": "Automatic digital ticket",
+            "description": "Each vehicle receives a unique code. No paper, no printers."
+          },
+          {
+            "icon": "💰",
+            "title": "Automatic billing",
+            "description": "Calculate the amount to pay based on time and the rate you define."
+          },
+          {
+            "icon": "📊",
+            "title": "Real-time dashboard",
+            "description": "See how many vehicles are inside, daily revenue and historical stats."
+          },
+          {
+            "icon": "🛡️",
+            "title": "Safe and reliable",
+            "description": "Encrypted data backed up in the cloud. Your information always available."
+          },
+          {
+            "icon": "📅",
+            "title": "Monthly plans for your customers",
+            "description": "Register recurring customers and charge their monthly fees easily."
+          }
+        ]
       },
-      {
-        "icon": "💰",
-        "title": "Automatic billing",
-        "description": "Calculate the amount to pay based on time and the rate you define."
+      "videoTutorial": {
+        "title": "Learn how to use Plakio",
+        "description": "Watch this video tutorial and discover how easy it is to manage your parking lot with Plakio."
       },
-      {
-        "icon": "📊",
-        "title": "Real-time dashboard",
-        "description": "See how many vehicles are inside, daily revenue and historical stats."
-      },
-      {
-        "icon": "🛡️",
-        "title": "Safe and reliable",
-        "description": "Encrypted data backed up in the cloud. Your information always available."
-      },
-      {
-        "icon": "📅",
-        "title": "Monthly plans for your customers",
-        "description": "Register recurring customers and charge their monthly fees easily."
+      "cta": {
+        "title": "Get started in 3 steps",
+        "description": "Download the app, set up your parking lot and start charging.",
+        "steps": [
+          "Download the Plakio app on your phone",
+          "Create your account with your parking lot name",
+          "Set your rate and start operating"
+        ],
+        "button": "Download the app →",
+        "footnote": "Available for Android · Free 30-day trial"
       }
-    ]
-  },
-  "videoTutorial": {
-    "title": "Learn how to use Plakio",
-    "description": "Watch this video tutorial and discover how easy it is to manage your parking lot with Plakio."
-  },
-  "cta": {
-    "title": "Get started in 3 steps",
-    "description": "Download the app, set up your parking lot and start charging.",
-    "steps": [
-      "Download the Plakio app on your phone",
-      "Create your account with your parking lot name",
-      "Set your rate and start operating"
-    ],
-    "button": "Download the app →",
-    "footnote": "Available for Android and iOS · Free 30-day trial"
-  },
-  "footer": {
-    "rights": "All rights reserved.",
-    "privacy": "Privacy",
-    "terms": "Terms",
-    "contact": "Contact"
+    },
+    "citoky": {
+      "name": "Citoky",
+      "tagline": "Virtual intercom",
+      "description": "Zero-installation intercom for residential complexes.",
+      "hero": {
+        "badge": "Available now",
+        "title": "Virtual intercom <highlight>without installation</highlight>",
+        "description": "The guard calls the resident via WhatsApp or phone from their cell phone. No equipment, no wiring.",
+        "ctaPrimary": "Download the app",
+        "ctaSecondary": "How it works",
+        "footnote": "Available for Android"
+      },
+      "features": {
+        "title": "Everything you need",
+        "description": "Designed for residential complexes of any size. Simple to use.",
+        "items": [
+          {
+            "icon": "📞",
+            "title": "Calls without equipment",
+            "description": "The guard looks up the apartment and calls the resident from their phone."
+          },
+          {
+            "icon": "💬",
+            "title": "WhatsApp integrated",
+            "description": "Send WhatsApp messages with custom templates."
+          },
+          {
+            "icon": "🏢",
+            "title": "Tower and apartment management",
+            "description": "Organize your complex into towers, apartments and residents."
+          },
+          {
+            "icon": "🔔",
+            "title": "Visitor notifications",
+            "description": "The resident approves or rejects visitors from WhatsApp."
+          },
+          {
+            "icon": "📋",
+            "title": "Message templates",
+            "description": "Create custom templates for recurring messages."
+          },
+          {
+            "icon": "🛡️",
+            "title": "Safe and reliable",
+            "description": "Encrypted data backed up in the cloud. Your information always available."
+          }
+        ]
+      },
+      "cta": {
+        "title": "Get started in 3 steps",
+        "description": "Download the app, set up your complex and start using.",
+        "steps": [
+          "Download the Citoky app on your phone",
+          "Create your account with your complex name",
+          "Configure towers, apartments and residents"
+        ],
+        "button": "Download the app →",
+        "footnote": "Available for Android"
+      }
+    }
   },
   "download": {
-    "metadataTitle": "Download Plakio — Parking lot app",
-    "metadataDescription": "Download the Plakio app for Android and iOS. Manage your parking lot from your phone with check-in, check-out and automatic billing.",
+    "metadataTitle": "Download our apps",
+    "metadataDescription": "Download Plakio for parking lots and Citoky for virtual intercom. Manage your business from your phone.",
     "badge": "Available now",
-    "title": "Download <highlight>Plakio</highlight>",
-    "description": "Available for Android and iOS. Free 30-day trial, no credit card required.",
+    "title": "Download <highlight>our apps</highlight>",
+    "description": "Choose the app you need. Available for Android.",
     "android": "Android",
     "androidLabel": "Download APK",
     "iosLabel": "Coming soon to",
@@ -85,11 +156,17 @@
     "stepsTitle": "How to get started",
     "steps": [
       "Download the app on your phone",
-      "Create your account with your parking lot name",
-      "Set your rate and start operating"
+      "Create your account",
+      "Configure and start operating"
     ],
     "questions": "Have questions?",
     "email": "hola@plakio.app"
+  },
+  "footer": {
+    "rights": "All rights reserved.",
+    "privacy": "Privacy",
+    "terms": "Terms",
+    "contact": "Contact"
   },
   "notFound": {
     "title": "Page not found",

@@ -2,10 +2,16 @@
 
 import { useTranslations } from "next-intl";
 
-const VIDEO_ID = "1yTvh8thz6SKoXB8SisJNM3PTuWLsA1hz";
+type VideoTutorialProps = {
+  readonly translationKey: string;
+  readonly videoId: string;
+};
 
-export default function VideoTutorial() {
-  const t = useTranslations("videoTutorial");
+export default function VideoTutorial({
+  translationKey,
+  videoId,
+}: VideoTutorialProps) {
+  const t = useTranslations(`${translationKey}.videoTutorial`);
 
   return (
     <section
@@ -27,7 +33,7 @@ export default function VideoTutorial() {
         <div className="relative w-full overflow-hidden rounded-2xl border border-gray-200 shadow-sm bg-black">
           <div className="relative w-full" style={{ paddingBottom: "56.25%" }}>
             <iframe
-              src={`https://drive.google.com/file/d/${VIDEO_ID}/preview`}
+              src={`https://drive.google.com/file/d/${videoId}/preview`}
               title={t("title")}
               allow="autoplay; encrypted-media; fullscreen"
               allowFullScreen

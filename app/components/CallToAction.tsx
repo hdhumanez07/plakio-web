@@ -3,8 +3,12 @@
 import { useTranslations } from "next-intl";
 import { Link } from "@/i18n/routing";
 
-export default function CtaPage() {
-  const t = useTranslations("cta");
+type CallToActionProps = {
+  readonly translationKey: string;
+};
+
+export default function CallToAction({ translationKey }: CallToActionProps) {
+  const t = useTranslations(`${translationKey}.cta`);
 
   return (
     <section

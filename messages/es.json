@@ -1,83 +1,154 @@
 {
   "metadata": {
-    "title": "Plakio — Software simple para parqueaderos",
-    "description": "Gestiona tu parqueadero desde el celular. Check-in, check-out, tickets digitales y cobro automático. Prueba gratis 30 días."
+    "title": "Plakio — Apps simples para tu negocio",
+    "description": "Software simple para gestionar tu negocio desde el celular. Parqueaderos, citofonía y más."
   },
   "nav": {
     "contact": "Contáctanos",
-    "download": "Descargar app"
+    "apps": "Apps",
+    "download": "Descargar"
   },
-  "hero": {
-    "badge": "Prueba gratis por 30 días",
-    "title": "El software más sencillo para <highlight>gestionar tu parqueadero</highlight>",
-    "description": "Check-in y check-out desde el celular, tickets digitales y cobro automático. Sin complicaciones.",
-    "ctaPrimary": "Descargar la app",
-    "ctaSecondary": "Cómo funciona",
-    "footnote": "Disponible para Android e iOS · Prueba gratis 30 días"
+  "home": {
+    "badge": "Apps disponibles ahora",
+    "heroTitle": "Plakio — Software simple para tu negocio",
+    "heroDescription": "Gestiona tu negocio desde el celular. Parqueaderos, citofonía y más.",
+    "title": "Software simple para <highlight>tu negocio</highlight>",
+    "description": "Gestiona tu negocio desde el celular. Elige la app que necesitas.",
+    "exploreApps": "Explorar apps",
+    "downloadAll": "Descargar"
   },
-  "features": {
-    "title": "Todo lo que necesitas",
-    "description": "Diseñado para parqueaderos de cualquier tamaño. Simple de usar, potente para tu negocio.",
-    "items": [
-      {
-        "icon": "📱",
-        "title": "Check-in desde el celular",
-        "description": "Registra la entrada de vehículos en segundos. Solo ingresa la placa y listo."
+  "apps": {
+    "plakio": {
+      "name": "Plakio",
+      "tagline": "Gestión de parqueaderos",
+      "description": "Check-in, check-out y cobro automático para tu parqueadero.",
+      "hero": {
+        "badge": "Prueba gratis por 30 días",
+        "title": "El software más sencillo para <highlight>gestionar tu parqueadero</highlight>",
+        "description": "Check-in y check-out desde el celular, tickets digitales y cobro automático. Sin complicaciones.",
+        "ctaPrimary": "Descargar la app",
+        "ctaSecondary": "Cómo funciona",
+        "footnote": "Disponible para Android · Prueba gratis 30 días"
       },
-      {
-        "icon": "🎫",
-        "title": "Ticket digital automático",
-        "description": "Cada vehículo recibe un código único. Sin papel, sin impresoras."
+      "features": {
+        "title": "Todo lo que necesitas",
+        "description": "Diseñado para parqueaderos de cualquier tamaño. Simple de usar, potente para tu negocio.",
+        "items": [
+          {
+            "icon": "📱",
+            "title": "Check-in desde el celular",
+            "description": "Registra la entrada de vehículos en segundos. Solo ingresa la placa y listo."
+          },
+          {
+            "icon": "🎫",
+            "title": "Ticket digital automático",
+            "description": "Cada vehículo recibe un código único. Sin papel, sin impresoras."
+          },
+          {
+            "icon": "💰",
+            "title": "Cobro automático",
+            "description": "Calcula el valor a pagar según el tiempo y la tarifa que tú definas."
+          },
+          {
+            "icon": "📊",
+            "title": "Dashboard en tiempo real",
+            "description": "Ve cuántos vehículos hay dentro, ingresos del día y estadísticas históricas."
+          },
+          {
+            "icon": "🛡️",
+            "title": "Seguro y confiable",
+            "description": "Datos cifrados y respaldados en la nube. Tu información siempre disponible."
+          },
+          {
+            "icon": "📅",
+            "title": "Mensualidades para tus clientes",
+            "description": "Registra clientes recurrentes y cobra sus mensualidades de forma sencilla."
+          }
+        ]
       },
-      {
-        "icon": "💰",
-        "title": "Cobro automático",
-        "description": "Calcula el valor a pagar según el tiempo y la tarifa que tú definas."
+      "videoTutorial": {
+        "title": "Aprende a usar Plakio",
+        "description": "Mira este video tutorial y descubre lo fácil que es gestionar tu parqueadero con Plakio."
       },
-      {
-        "icon": "📊",
-        "title": "Dashboard en tiempo real",
-        "description": "Ve cuántos vehículos hay dentro, ingresos del día y estadísticas históricas."
-      },
-      {
-        "icon": "🛡️",
-        "title": "Seguro y confiable",
-        "description": "Datos cifrados y respaldados en la nube. Tu información siempre disponible."
-      },
-      {
-        "icon": "📅",
-        "title": "Mensualidades para tus clientes",
-        "description": "Registra clientes recurrentes y cobra sus mensualidades de forma sencilla."
+      "cta": {
+        "title": "Empieza en 3 pasos",
+        "description": "Descarga la app, configura tu parqueadero y empieza a cobrar.",
+        "steps": [
+          "Descarga la app Plakio en tu celular",
+          "Crea tu cuenta con el nombre de tu parqueadero",
+          "Configura tu tarifa y empieza a operar"
+        ],
+        "button": "Descargar la app →",
+        "footnote": "Disponible para Android · Prueba gratis 30 días"
       }
-    ]
-  },
-  "videoTutorial": {
-    "title": "Aprende a usar Plakio",
-    "description": "Mira este video tutorial y descubre lo fácil que es gestionar tu parqueadero con Plakio."
-  },
-  "cta": {
-    "title": "Empieza en 3 pasos",
-    "description": "Descarga la app, configura tu parqueadero y empieza a cobrar.",
-    "steps": [
-      "Descarga la app Plakio en tu celular",
-      "Crea tu cuenta con el nombre de tu parqueadero",
-      "Configura tu tarifa y empieza a operar"
-    ],
-    "button": "Descargar la app →",
-    "footnote": "Disponible para Android e iOS · Prueba gratis 30 días"
-  },
-  "footer": {
-    "rights": "Todos los derechos reservados.",
-    "privacy": "Privacidad",
-    "terms": "Términos",
-    "contact": "Contacto"
+    },
+    "citoky": {
+      "name": "Citoky",
+      "tagline": "Citofonía virtual",
+      "description": "Citofonía sin instalación para conjuntos residenciales.",
+      "hero": {
+        "badge": "Disponible ahora",
+        "title": "Citofonía virtual <highlight>sin instalación</highlight>",
+        "description": "El guardia llama al residente por WhatsApp o teléfono desde su celular. Sin equipos, sin cables.",
+        "ctaPrimary": "Descargar la app",
+        "ctaSecondary": "Cómo funciona",
+        "footnote": "Disponible para Android"
+      },
+      "features": {
+        "title": "Todo lo que necesitas",
+        "description": "Diseñado para conjuntos residenciales de cualquier tamaño. Simple de usar.",
+        "items": [
+          {
+            "icon": "📞",
+            "title": "Llamadas sin equipos",
+            "description": "El guardia busca el apartamento y llama al residente desde su celular."
+          },
+          {
+            "icon": "💬",
+            "title": "WhatsApp integrado",
+            "description": "Envía mensajes por WhatsApp con plantillas personalizadas."
+          },
+          {
+            "icon": "🏢",
+            "title": "Gestión de torres y apartamentos",
+            "description": "Organiza tu conjunto en torres, apartamentos y residentes."
+          },
+          {
+            "icon": "🔔",
+            "title": "Notificaciones de visitantes",
+            "description": "El residente aprueba o rechaza visitantes desde WhatsApp."
+          },
+          {
+            "icon": "📋",
+            "title": "Plantillas de mensajes",
+            "description": "Crea plantillas personalizadas para mensajes recurrentes."
+          },
+          {
+            "icon": "🛡️",
+            "title": "Seguro y confiable",
+            "description": "Datos cifrados y respaldados en la nube. Tu información siempre disponible."
+          }
+        ]
+      },
+      "cta": {
+        "title": "Empieza en 3 pasos",
+        "description": "Descarga la app, configura tu conjunto y empieza a usar.",
+        "steps": [
+          "Descarga la app Citoky en tu celular",
+          "Crea tu cuenta con el nombre de tu conjunto",
+          "Configura torres, apartamentos y residentes"
+        ],
+        "button": "Descargar la app →",
+        "footnote": "Disponible para Android"
+      }
+    }
   },
   "download": {
-    "metadataTitle": "Descargar Plakio — App para parqueaderos",
-    "metadataDescription": "Descarga la app Plakio para Android e iOS. Gestiona tu parqueadero desde el celular con check-in, check-out y cobro automático.",
-    "badge": "Disponible ahora",
-    "title": "Descarga <highlight>Plakio</highlight>",
-    "description": "Disponible para Android e iOS. Prueba gratis por 30 días, sin tarjeta de crédito.",
+    "metadataTitle": "Descargar nuestras apps",
+    "metadataDescription": "Descarga Plakio para parqueaderos y Citoky para citofonía virtual. Gestiona tu negocio desde el celular.",
+    "badge": "Disponibles ahora",
+    "title": "Descarga <highlight>nuestras apps</highlight>",
+    "description": "Elige la app que necesitas. Disponible para Android.",
     "android": "Android",
     "androidLabel": "Descargar APK",
     "iosLabel": "Próximamente en",
@@ -85,11 +156,17 @@
     "stepsTitle": "Cómo empezar",
     "steps": [
       "Descarga la app en tu celular",
-      "Crea tu cuenta con el nombre de tu parqueadero",
-      "Configura tu tarifa y empieza a operar"
+      "Crea tu cuenta",
+      "Configura y empieza a operar"
     ],
     "questions": "¿Tienes preguntas?",
     "email": "hola@plakio.app"
+  },
+  "footer": {
+    "rights": "Todos los derechos reservados.",
+    "privacy": "Privacidad",
+    "terms": "Términos",
+    "contact": "Contacto"
   },
   "notFound": {
     "title": "Página no encontrada",
